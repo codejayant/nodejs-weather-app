@@ -1,0 +1,22 @@
+{
+  "name": "nodejs-weather-app",
+  "version": "1.0.0",
+  "description": "a weather app created in nodejs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codejayant/nodejs-weather-app.git"
+  },
+  "author": "jayant sarkar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/codejayant/nodejs-weather-app/issues"
+  },
+  "homepage": "https://github.com/codejayant/nodejs-weather-app#readme",
+  "dependencies": {
+    "request": "^2.83.0"
+  }
+}
