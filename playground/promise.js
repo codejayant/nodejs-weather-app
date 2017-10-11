@@ -11,7 +11,13 @@ var asyncAdd = (a, b) => {
 }
 
 asyncAdd(5, 7).then((res) => {
-  console.log('Results: ' + res)
+  console.log('Results: ', res)
+  // return a new promise to create promise chain
+  return asyncAdd(res, 33)
+}, (errorMessage) => {
+  console.log(errorMessage)
+}).then((res) => {
+  console.log('should be 45 : ', res)
 }, (errorMessage) => {
   console.log(errorMessage)
 })
